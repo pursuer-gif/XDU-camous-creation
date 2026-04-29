@@ -1,0 +1,12 @@
+.env
+.env.*
+node_modules/
+client/node_modules/
+client/dist/
+*.log
+# 忽略 TypeScript 增量编译缓存，避免提交本机生成文件
+*.tsbuildinfo
+# 用户指定不上传的本地文档
+design_description.docx
+signup_form.docx
+technical_solution.docx
